@@ -10,3 +10,6 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=tizele_python-project-49&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=tizele_python-project-49)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=tizele_python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=tizele_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=tizele_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=tizele_python-project-49)
+
+
+   https://asciinema.org/a/fRj1ci1bhXBJv0uRHvk41jLHK
