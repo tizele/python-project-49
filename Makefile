@@ -10,4 +10,5 @@ build: #assembly
 package-install:
 	uv tool install dist/*.whl
 
-
+lint: #code check
+	uv run ruff check brain_games
