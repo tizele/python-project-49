@@ -10,19 +10,19 @@ def main():
     name = welcome_user()
     print(f'Hello, {name}!')
     parity_check(name)
+    
 
 def parity_check(name):
     print('Answer "yes" if the number is even, otherwise answer "no".')
     i = 0
     while i < 3:
-        number = random.randint(0,100)
-        if number % 2 == 0:
-            corect = 'yes'
-        else:
-            corect = 'no'
+        number_1 = random.randint(0,20)
+        number_2 = random.randint(0,20)
+        number = f'{number_1} {random.choice(['+','-','*'])} {number_2}'
+        corect = eval(number)
         print(f'Question: {number}')
         answer = prompt.string(f'Your answer: ')
-        if answer == corect:
+        if answer == str(corect):
             print('Correct!')
             i += 1
         else:
@@ -30,4 +30,5 @@ def parity_check(name):
             print(f"Let's try again, {name}")
             i = 0
     print(f'Congratulation, {name}!')
+ 
 
