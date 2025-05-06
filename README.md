@@ -12,4 +12,7 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=tizele_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=tizele_python-project-49)
 
 
-   https://asciinema.org/a/fRj1ci1bhXBJv0uRHvk41jLHK
+   https://asciinema.org/a/fRj1ci1bhXBJv0uRHvk41jLHK - lessons 5
+
+   https://asciinema.org/a/gZaRDHTEVDhFo4gV4zRL2pwiO - lessons 6
+
