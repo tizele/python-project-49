@@ -1,22 +1,17 @@
 import random
 import prompt
 from brain_games.cli import welcome_user
-from brain_games.scripts.brain_calc import calc
 
 
-def greet():
+def game(names):
     print('Welcome to the Brain Games!')
     name = welcome_user()
     print(f'Hello, {name}!')
-    parity_check(name)
-    
-
-def parity_check(name):
     print('Answer "yes" if the number is even, otherwise answer "no".')
     i = 0
     while i < 3:
-        corect, number = calc()
-        print(f'Question: {number}')
+        corect, quest = names()
+        print(f'Question: {quest}')
         answer = prompt.string(f'Your answer: ')
         if answer == str(corect):
             print('Correct!')
