@@ -1,18 +1,19 @@
-import random
 import prompt
+
 from brain_games.cli import welcome_user
 
 
 def game(names):
+    _, _, rules = names()
     print('Welcome to the Brain Games!')
     name = welcome_user()
     print(f'Hello, {name}!')
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    print(rules)
     i = 0
     while i < 3:
-        corect, quest = names()
+        corect, quest, _ = names()
         print(f'Question: {quest}')
-        answer = prompt.string(f'Your answer: ')
+        answer = prompt.string('Your answer: ')
         if answer == str(corect):
             print('Correct!')
             i += 1

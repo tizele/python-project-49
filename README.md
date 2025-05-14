@@ -14,5 +14,9 @@
 
    https://asciinema.org/a/fRj1ci1bhXBJv0uRHvk41jLHK - lessons 5
 
-   https://asciinema.org/a/gZaRDHTEVDhFo4gV4zRL2pwiO - lessons 6
+   https://asciinema.org/a/5vqen9NSeItDBvCkJcgQTGFdC - lessons 6
+
+   https://asciinema.org/a/vWAFf0kpxribppfyEev0xOsym - lessons 7
+   
+
 
