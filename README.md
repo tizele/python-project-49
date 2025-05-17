@@ -20,6 +20,8 @@
 
    https://asciinema.org/a/6Br2XWQcEChgwnEVIkVRK5nXJ - lessons 8
    
+   https://asciinema.org/a/aU0n9KJ8kooIFBvTAOn28JE0B - lessons 9
+   
    
 
 

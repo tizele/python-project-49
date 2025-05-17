@@ -10,7 +10,7 @@ def gcd():
     if number_1 < number_2:
         if number_2 % number_1 == 0:
             gcd = number_1
-        else :
+        else:
             gcd = number_1 // 2
             while i:
                 if number_1 % gcd == 0 and number_2 % gcd == 0:

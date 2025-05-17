@@ -3,10 +3,10 @@ import random
 
 def progression():
     rules = 'What number is missing in the progression?'
-    number_1 = random.randint(1,30)
-    number_2 = random.randint(1,30)
-    len = random.randint(5,10)
-    quest = random.randint(1,len)
+    number_1 = random.randint(1, 30)
+    number_2 = random.randint(1, 30)
+    len = random.randint(5, 10)
+    quest = random.randint(1, len)
     pgs = []
     if number_1 > number_2:
         b = number_1 - number_2
