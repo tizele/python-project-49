@@ -11,14 +11,14 @@ def game(names):
     print(rules)
     NUMBER_CORRECT_ANSWER = 3
     for i in range(NUMBER_CORRECT_ANSWER):
-        corect, quest, _ = names()
+        crt, quest, _ = names()
         print(f'Question: {quest}')
         answer = prompt.string('Your answer: ')
-        if answer == str(corect):
+        if answer == str(crt):
             print('Correct!')
             if i == NUMBER_CORRECT_ANSWER - 1:
                 print(f'Congratulations, {name}!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Corect answer was '{corect}'.")
+            print(f"'{answer}' is wrong answer ;(. Corect answer was '{crt}'.")
             print(f"Let's try again, {name}!")
             break

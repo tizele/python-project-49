@@ -15,7 +15,8 @@ def gcd():
             while i:
                 if number_1 % gcd == 0 and number_2 % gcd == 0:
                     i = False
-                else: gcd -= 1
+                else: 
+                    gcd -= 1
     else:
         if number_1 % number_2 == 0:
             gcd = number_2
@@ -24,6 +25,7 @@ def gcd():
             while i:
                 if number_1 % gcd == 0 and number_2 % gcd == 0:
                     i = False
-                else: gcd -= 1
+                else: 
+                    gcd -= 1
     corect = gcd
     return int(corect), number, rules

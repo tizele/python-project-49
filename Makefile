@@ -17,5 +17,5 @@ lint: #code check
 	uv run ruff check
 
 lint-fix: #code check fix
-	uv run ruff --fix check
+	uv run ruff check --fix
 
