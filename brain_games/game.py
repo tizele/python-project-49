@@ -20,5 +20,5 @@ def game(names):
                 print(f'Congratulations, {name}!')
         else:
             print(f"'{answer}' is wrong answer ;(. Corect answer was '{corect}'.")
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             break
