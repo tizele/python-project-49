@@ -11,16 +11,46 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=tizele_python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=tizele_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=tizele_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=tizele_python-project-49)
 
+   ##Demo
+   https://asciinema.org/a/fRj1ci1bhXBJv0uRHvk41jLHK 
 
-   https://asciinema.org/a/fRj1ci1bhXBJv0uRHvk41jLHK - lessons 5
+   https://asciinema.org/a/5vqen9NSeItDBvCkJcgQTGFdC 
 
-   https://asciinema.org/a/5vqen9NSeItDBvCkJcgQTGFdC - lessons 6
+   https://asciinema.org/a/vWAFf0kpxribppfyEev0xOsym 
 
-   https://asciinema.org/a/vWAFf0kpxribppfyEev0xOsym - lessons 7
-
-   https://asciinema.org/a/6Br2XWQcEChgwnEVIkVRK5nXJ - lessons 8
+   https://asciinema.org/a/6Br2XWQcEChgwnEVIkVRK5nXJ 
    
-   https://asciinema.org/a/aU0n9KJ8kooIFBvTAOn28JE0B - lessons 9
+   https://asciinema.org/a/aU0n9KJ8kooIFBvTAOn28JE0B 
+
+   ## Description
+   Brain Games is a game consisting of 5 mini games on erudition, which included games such as:
+   - Parity check
+   - Calculator
+   - Finding the greatest common divisor
+   - Arithmetic progression
+   - Is it a prime number
+
+   ## Minimum requirements
+   - Python 3.12+
+   - uv
+
+   ## Installation
+   1) git clone git@github.com:tizele/python-project-49.git
+   2) make install
+
+   ## Launch games
+   - brain-even
+   - brain-calc
+   - brain-gcd
+   - brain-progression
+   - brain-prime
+
+
+
+
+
+
+
    
    
 

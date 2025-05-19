@@ -10,5 +10,12 @@ build: #assembly
 package-install:
 	uv tool install dist/*.whl
 
+package-force:
+	uv tool install --force dist/*.whl
+
 lint: #code check
-	uv run ruff check brain_games
+	uv run ruff check
+
+lint-fix: #code check fix
+	uv run ruff --fix check
+

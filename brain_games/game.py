@@ -10,7 +10,8 @@ def game(names):
     print(f'Hello, {name}!')
     print(rules)
     i = 0
-    while i < 3:
+    NUMBER_CORRECT_ANSWER = 3
+    while i < NUMBER_CORRECT_ANSWER:
         corect, quest, _ = names()
         print(f'Question: {quest}')
         answer = prompt.string('Your answer: ')
